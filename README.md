@@ -1,32 +1,16 @@
-# GILTWays
+# GILTWays Site Bundle
 
-GILTWays is the framework and methodology platform under GILTCO.
+This package contains a ready-to-publish static site for `giltways.com`.
 
-This repository contains the source files for the GILTWays website, including its information architecture, page structure, visual assets, and content modules. The platform is designed to organize strategic frameworks, practical pathways, and execution-oriented knowledge for global expansion.
+## Included pages
+- `/`
+- `/goxedge/`
+- `/frameworks/`
+- `/resources/`
+- `/about/`
+- `/connect/`
 
-## Current Scope
-
-The first release of GILTWays focuses on:
-
-- Presenting GILTWays as the methodology platform of GILTCO
-- Featuring GoxEDGE as the first flagship framework
-- Establishing a structured framework library
-- Creating a scalable foundation for future resources, tutorials, and playbooks
-
-## Initial Site Structure
-
-- Home
-- GoxEDGE
-- Frameworks
-- Resources
-- About
-- Connect
-
-## Related Repositories
-
-- `goxedge-book` — manuscript and editorial source for the GoxEDGE book
-- `gilt-glossary` — terminology, naming conventions, and canonical definitions across the ecosystem
-
-## Status
-
-In active development.
+## Notes
+- All page links use root-relative paths, which works well for a custom domain such as `giltways.com`.
+- The contact page includes a placeholder email link. Replace `your-email@example.com` with your preferred contact email or form link.
+- The design uses a single shared stylesheet and a small script for mobile navigation.
